@@ -3,52 +3,91 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A54DCA997506B4B99541E12 /* Pods_C10219_SporTrack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EE63F41D2F258F2C3E0E0A2 /* Pods_C10219_SporTrack.framework */; };
+		71299FB224D31AC1007BA72C /* LogItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71299FB124D31AC1007BA72C /* LogItem.swift */; };
+		71299FB424D32831007BA72C /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71299FB324D32831007BA72C /* Location.swift */; };
+		71299FB624D32AAC007BA72C /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71299FB524D32AAC007BA72C /* LocationManager.swift */; };
+		71299FB824D333D1007BA72C /* FormatDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71299FB724D333D1007BA72C /* FormatDisplay.swift */; };
+		71299FBA24D33465007BA72C /* UnitConverterPace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71299FB924D33465007BA72C /* UnitConverterPace.swift */; };
+		71299FBC24D3590A007BA72C /* MulticolorPolyline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71299FBB24D3590A007BA72C /* MulticolorPolyline.swift */; };
+		715035E624CF3DDB003B1567 /* InAppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715035E524CF3DDB003B1567 /* InAppViewController.swift */; };
+		715035E824CF8E0B003B1567 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715035E724CF8E0B003B1567 /* Workout.swift */; };
+		715035EA24CF8E2D003B1567 /* Endurance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715035E924CF8E2D003B1567 /* Endurance.swift */; };
+		715035EC24CF8F5C003B1567 /* ExerciseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715035EB24CF8F5C003B1567 /* ExerciseCollectionViewCell.swift */; };
+		715035EE24CF8FAA003B1567 /* LogRecordTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715035ED24CF8FAA003B1567 /* LogRecordTableViewCell.swift */; };
+		715035F024CF8FF5003B1567 /* LogRecordItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715035EF24CF8FF5003B1567 /* LogRecordItemTableViewCell.swift */; };
+		715035F224CF9034003B1567 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715035F124CF9034003B1567 /* Exercise.swift */; };
+		715E33F024C5CDD400C309E0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 715E33EF24C5CDD400C309E0 /* GoogleService-Info.plist */; };
+		717EA56024D0D37A00496744 /* ExerciseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717EA55F24D0D37A00496744 /* ExerciseTableViewCell.swift */; };
+		717EA56224D0D3B200496744 /* WalkRunTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717EA56124D0D3B200496744 /* WalkRunTableViewCell.swift */; };
+		718AD6D024C86285009B5977 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718AD6CF24C86285009B5977 /* SignUpViewController.swift */; };
+		718AD6D224C862A6009B5977 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718AD6D124C862A6009B5977 /* SignInViewController.swift */; };
+		718AD6DA24C8E894009B5977 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718AD6D924C8E894009B5977 /* Constants.swift */; };
+		7190A44624CB54DD00AA1439 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7190A44524CB54DD00AA1439 /* ProfileViewController.swift */; };
+		7190A44824CB54F500AA1439 /* ExerciseMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7190A44724CB54F500AA1439 /* ExerciseMenuViewController.swift */; };
+		7190A44A24CB550700AA1439 /* ExerciseTimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7190A44924CB550700AA1439 /* ExerciseTimerViewController.swift */; };
+		7190A44C24CB552000AA1439 /* EnduranceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7190A44B24CB552000AA1439 /* EnduranceViewController.swift */; };
+		7190A44E24CB554900AA1439 /* LogMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7190A44D24CB554900AA1439 /* LogMenuViewController.swift */; };
+		7190A45024CB555600AA1439 /* LogDayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7190A44F24CB555600AA1439 /* LogDayViewController.swift */; };
 		71CA830E24957D84007BBD69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CA830D24957D84007BBD69 /* AppDelegate.swift */; };
 		71CA831024957D84007BBD69 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CA830F24957D84007BBD69 /* SceneDelegate.swift */; };
-		71CA831224957D84007BBD69 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CA831124957D84007BBD69 /* ViewController.swift */; };
+		71CA831224957D84007BBD69 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CA831124957D84007BBD69 /* WelcomeViewController.swift */; };
 		71CA831524957D84007BBD69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71CA831324957D84007BBD69 /* Main.storyboard */; };
 		71CA831724957D86007BBD69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71CA831624957D86007BBD69 /* Assets.xcassets */; };
 		71CA831A24957D86007BBD69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71CA831824957D86007BBD69 /* LaunchScreen.storyboard */; };
-		71CA832524957D86007BBD69 /* C10219_SporTrackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CA832424957D86007BBD69 /* C10219_SporTrackTests.swift */; };
-		71CA833024957D86007BBD69 /* C10219_SporTrackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CA832F24957D86007BBD69 /* C10219_SporTrackUITests.swift */; };
+		71FEC72524D1DBD500B41FA9 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FEC72424D1DBD500B41FA9 /* User.swift */; };
+		71FEC72824D218EC00B41FA9 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 71FEC72724D218EC00B41FA9 /* IQKeyboardManagerSwift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		71CA832124957D86007BBD69 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 71CA830224957D84007BBD69 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 71CA830924957D84007BBD69;
-			remoteInfo = "C10219-SporTrack";
-		};
-		71CA832C24957D86007BBD69 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 71CA830224957D84007BBD69 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 71CA830924957D84007BBD69;
-			remoteInfo = "C10219-SporTrack";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		03D450B05D55F095C55C4AD3 /* Pods-C10219-SporTrack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-C10219-SporTrack.release.xcconfig"; path = "Target Support Files/Pods-C10219-SporTrack/Pods-C10219-SporTrack.release.xcconfig"; sourceTree = "<group>"; };
+		096C03E93B54B644D0787CFF /* Pods-C10219-SporTrackTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-C10219-SporTrackTests.release.xcconfig"; path = "Target Support Files/Pods-C10219-SporTrackTests/Pods-C10219-SporTrackTests.release.xcconfig"; sourceTree = "<group>"; };
+		422DB40BCA5C65DF673C415F /* Pods-C10219-SporTrackTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-C10219-SporTrackTests.debug.xcconfig"; path = "Target Support Files/Pods-C10219-SporTrackTests/Pods-C10219-SporTrackTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4C064FD7951748BF36BBE105 /* Pods_C10219_SporTrack_C10219_SporTrackUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_C10219_SporTrack_C10219_SporTrackUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EE63F41D2F258F2C3E0E0A2 /* Pods_C10219_SporTrack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_C10219_SporTrack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		71299FB124D31AC1007BA72C /* LogItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogItem.swift; sourceTree = "<group>"; };
+		71299FB324D32831007BA72C /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		71299FB524D32AAC007BA72C /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		71299FB724D333D1007BA72C /* FormatDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormatDisplay.swift; sourceTree = "<group>"; };
+		71299FB924D33465007BA72C /* UnitConverterPace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitConverterPace.swift; sourceTree = "<group>"; };
+		71299FBB24D3590A007BA72C /* MulticolorPolyline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MulticolorPolyline.swift; sourceTree = "<group>"; };
+		715035E524CF3DDB003B1567 /* InAppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InAppViewController.swift; sourceTree = "<group>"; };
+		715035E724CF8E0B003B1567 /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
+		715035E924CF8E2D003B1567 /* Endurance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endurance.swift; sourceTree = "<group>"; };
+		715035EB24CF8F5C003B1567 /* ExerciseCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseCollectionViewCell.swift; sourceTree = "<group>"; };
+		715035ED24CF8FAA003B1567 /* LogRecordTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogRecordTableViewCell.swift; sourceTree = "<group>"; };
+		715035EF24CF8FF5003B1567 /* LogRecordItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogRecordItemTableViewCell.swift; sourceTree = "<group>"; };
+		715035F124CF9034003B1567 /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
+		715E33EF24C5CDD400C309E0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		715E33F124C5DB8600C309E0 /* C10219-SporTrack.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "C10219-SporTrack.entitlements"; sourceTree = "<group>"; };
+		717EA55F24D0D37A00496744 /* ExerciseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseTableViewCell.swift; sourceTree = "<group>"; };
+		717EA56124D0D3B200496744 /* WalkRunTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkRunTableViewCell.swift; sourceTree = "<group>"; };
+		718AD6CF24C86285009B5977 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		718AD6D124C862A6009B5977 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		718AD6D924C8E894009B5977 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		7190A44524CB54DD00AA1439 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		7190A44724CB54F500AA1439 /* ExerciseMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseMenuViewController.swift; sourceTree = "<group>"; };
+		7190A44924CB550700AA1439 /* ExerciseTimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseTimerViewController.swift; sourceTree = "<group>"; };
+		7190A44B24CB552000AA1439 /* EnduranceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnduranceViewController.swift; sourceTree = "<group>"; };
+		7190A44D24CB554900AA1439 /* LogMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogMenuViewController.swift; sourceTree = "<group>"; };
+		7190A44F24CB555600AA1439 /* LogDayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogDayViewController.swift; sourceTree = "<group>"; };
 		71CA830A24957D84007BBD69 /* C10219-SporTrack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "C10219-SporTrack.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		71CA830D24957D84007BBD69 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		71CA830F24957D84007BBD69 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		71CA831124957D84007BBD69 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		71CA831124957D84007BBD69 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		71CA831424957D84007BBD69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		71CA831624957D86007BBD69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		71CA831924957D86007BBD69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		71CA831B24957D86007BBD69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		71CA832024957D86007BBD69 /* C10219-SporTrackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "C10219-SporTrackTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		71CA832424957D86007BBD69 /* C10219_SporTrackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = C10219_SporTrackTests.swift; sourceTree = "<group>"; };
-		71CA832624957D86007BBD69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		71CA832B24957D86007BBD69 /* C10219-SporTrackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "C10219-SporTrackUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		71CA832F24957D86007BBD69 /* C10219_SporTrackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = C10219_SporTrackUITests.swift; sourceTree = "<group>"; };
-		71CA833124957D86007BBD69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71FEC72424D1DBD500B41FA9 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		9EBDE82B222C86066D1251AC /* Pods-C10219-SporTrack-C10219-SporTrackUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-C10219-SporTrack-C10219-SporTrackUITests.release.xcconfig"; path = "Target Support Files/Pods-C10219-SporTrack-C10219-SporTrackUITests/Pods-C10219-SporTrack-C10219-SporTrackUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9EDB423D4FF8EB4B9CD948E3 /* Pods-C10219-SporTrack-C10219-SporTrackUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-C10219-SporTrack-C10219-SporTrackUITests.debug.xcconfig"; path = "Target Support Files/Pods-C10219-SporTrack-C10219-SporTrackUITests/Pods-C10219-SporTrack-C10219-SporTrackUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D900B1BE9A6FB51200A240B1 /* Pods-C10219-SporTrack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-C10219-SporTrack.debug.xcconfig"; path = "Target Support Files/Pods-C10219-SporTrack/Pods-C10219-SporTrack.debug.xcconfig"; sourceTree = "<group>"; };
+		E1F184D2955E6DC7F4CA948B /* Pods_C10219_SporTrackTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_C10219_SporTrackTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,33 +95,84 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		71CA831D24957D86007BBD69 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		71CA832824957D86007BBD69 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				4A54DCA997506B4B99541E12 /* Pods_C10219_SporTrack.framework in Frameworks */,
+				71FEC72824D218EC00B41FA9 /* IQKeyboardManagerSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		717EA55D24D0D1FA00496744 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				715035E724CF8E0B003B1567 /* Workout.swift */,
+				715035F124CF9034003B1567 /* Exercise.swift */,
+				715035E924CF8E2D003B1567 /* Endurance.swift */,
+				71FEC72424D1DBD500B41FA9 /* User.swift */,
+				71299FB124D31AC1007BA72C /* LogItem.swift */,
+				71299FB324D32831007BA72C /* Location.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		717EA55E24D0D20300496744 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				715035EB24CF8F5C003B1567 /* ExerciseCollectionViewCell.swift */,
+				715035ED24CF8FAA003B1567 /* LogRecordTableViewCell.swift */,
+				715035EF24CF8FF5003B1567 /* LogRecordItemTableViewCell.swift */,
+				717EA55F24D0D37A00496744 /* ExerciseTableViewCell.swift */,
+				717EA56124D0D3B200496744 /* WalkRunTableViewCell.swift */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		718AD6CE24C86115009B5977 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				71CA831124957D84007BBD69 /* WelcomeViewController.swift */,
+				718AD6CF24C86285009B5977 /* SignUpViewController.swift */,
+				718AD6D124C862A6009B5977 /* SignInViewController.swift */,
+				715035E524CF3DDB003B1567 /* InAppViewController.swift */,
+				7190A44724CB54F500AA1439 /* ExerciseMenuViewController.swift */,
+				7190A44924CB550700AA1439 /* ExerciseTimerViewController.swift */,
+				7190A44B24CB552000AA1439 /* EnduranceViewController.swift */,
+				7190A44D24CB554900AA1439 /* LogMenuViewController.swift */,
+				7190A44F24CB555600AA1439 /* LogDayViewController.swift */,
+				7190A44524CB54DD00AA1439 /* ProfileViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		718AD6D324C87A89009B5977 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				717EA55D24D0D1FA00496744 /* Entities */,
+				717EA55E24D0D20300496744 /* TableViewCells */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		718AD6D424C87A93009B5977 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				718AD6D924C8E894009B5977 /* Constants.swift */,
+				71299FB524D32AAC007BA72C /* LocationManager.swift */,
+				71299FB724D333D1007BA72C /* FormatDisplay.swift */,
+				71299FB924D33465007BA72C /* UnitConverterPace.swift */,
+				71299FBB24D3590A007BA72C /* MulticolorPolyline.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		71CA830124957D84007BBD69 = {
 			isa = PBXGroup;
 			children = (
 				71CA830C24957D84007BBD69 /* C10219-SporTrack */,
-				71CA832324957D86007BBD69 /* C10219-SporTrackTests */,
-				71CA832E24957D86007BBD69 /* C10219-SporTrackUITests */,
 				71CA830B24957D84007BBD69 /* Products */,
+				7C23EA4AFDB6D7DEA6D64B35 /* Pods */,
+				A2206FDA616E511BADAD1CFB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,8 +180,6 @@
 			isa = PBXGroup;
 			children = (
 				71CA830A24957D84007BBD69 /* C10219-SporTrack.app */,
-				71CA832024957D86007BBD69 /* C10219-SporTrackTests.xctest */,
-				71CA832B24957D86007BBD69 /* C10219-SporTrackUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,9 +187,13 @@
 		71CA830C24957D84007BBD69 /* C10219-SporTrack */ = {
 			isa = PBXGroup;
 			children = (
+				718AD6D424C87A93009B5977 /* Utilities */,
+				718AD6D324C87A89009B5977 /* Models */,
+				718AD6CE24C86115009B5977 /* ViewControllers */,
+				715E33F124C5DB8600C309E0 /* C10219-SporTrack.entitlements */,
+				715E33EF24C5CDD400C309E0 /* GoogleService-Info.plist */,
 				71CA830D24957D84007BBD69 /* AppDelegate.swift */,
 				71CA830F24957D84007BBD69 /* SceneDelegate.swift */,
-				71CA831124957D84007BBD69 /* ViewController.swift */,
 				71CA831324957D84007BBD69 /* Main.storyboard */,
 				71CA831624957D86007BBD69 /* Assets.xcassets */,
 				71CA831824957D86007BBD69 /* LaunchScreen.storyboard */,
@@ -110,22 +202,27 @@
 			path = "C10219-SporTrack";
 			sourceTree = "<group>";
 		};
-		71CA832324957D86007BBD69 /* C10219-SporTrackTests */ = {
+		7C23EA4AFDB6D7DEA6D64B35 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				71CA832424957D86007BBD69 /* C10219_SporTrackTests.swift */,
-				71CA832624957D86007BBD69 /* Info.plist */,
+				D900B1BE9A6FB51200A240B1 /* Pods-C10219-SporTrack.debug.xcconfig */,
+				03D450B05D55F095C55C4AD3 /* Pods-C10219-SporTrack.release.xcconfig */,
+				9EDB423D4FF8EB4B9CD948E3 /* Pods-C10219-SporTrack-C10219-SporTrackUITests.debug.xcconfig */,
+				9EBDE82B222C86066D1251AC /* Pods-C10219-SporTrack-C10219-SporTrackUITests.release.xcconfig */,
+				422DB40BCA5C65DF673C415F /* Pods-C10219-SporTrackTests.debug.xcconfig */,
+				096C03E93B54B644D0787CFF /* Pods-C10219-SporTrackTests.release.xcconfig */,
 			);
-			path = "C10219-SporTrackTests";
+			path = Pods;
 			sourceTree = "<group>";
 		};
-		71CA832E24957D86007BBD69 /* C10219-SporTrackUITests */ = {
+		A2206FDA616E511BADAD1CFB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				71CA832F24957D86007BBD69 /* C10219_SporTrackUITests.swift */,
-				71CA833124957D86007BBD69 /* Info.plist */,
+				6EE63F41D2F258F2C3E0E0A2 /* Pods_C10219_SporTrack.framework */,
+				4C064FD7951748BF36BBE105 /* Pods_C10219_SporTrack_C10219_SporTrackUITests.framework */,
+				E1F184D2955E6DC7F4CA948B /* Pods_C10219_SporTrackTests.framework */,
 			);
-			path = "C10219-SporTrackUITests";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,54 +232,23 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 71CA833424957D86007BBD69 /* Build configuration list for PBXNativeTarget "C10219-SporTrack" */;
 			buildPhases = (
+				BF06C091CE8BA19990B9EA88 /* [CP] Check Pods Manifest.lock */,
 				71CA830624957D84007BBD69 /* Sources */,
 				71CA830724957D84007BBD69 /* Frameworks */,
 				71CA830824957D84007BBD69 /* Resources */,
+				97E13CA3E827E3BEAF823312 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "C10219-SporTrack";
+			packageProductDependencies = (
+				71FEC72724D218EC00B41FA9 /* IQKeyboardManagerSwift */,
+			);
 			productName = "C10219-SporTrack";
 			productReference = 71CA830A24957D84007BBD69 /* C10219-SporTrack.app */;
 			productType = "com.apple.product-type.application";
-		};
-		71CA831F24957D86007BBD69 /* C10219-SporTrackTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 71CA833724957D86007BBD69 /* Build configuration list for PBXNativeTarget "C10219-SporTrackTests" */;
-			buildPhases = (
-				71CA831C24957D86007BBD69 /* Sources */,
-				71CA831D24957D86007BBD69 /* Frameworks */,
-				71CA831E24957D86007BBD69 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				71CA832224957D86007BBD69 /* PBXTargetDependency */,
-			);
-			name = "C10219-SporTrackTests";
-			productName = "C10219-SporTrackTests";
-			productReference = 71CA832024957D86007BBD69 /* C10219-SporTrackTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		71CA832A24957D86007BBD69 /* C10219-SporTrackUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 71CA833A24957D86007BBD69 /* Build configuration list for PBXNativeTarget "C10219-SporTrackUITests" */;
-			buildPhases = (
-				71CA832724957D86007BBD69 /* Sources */,
-				71CA832824957D86007BBD69 /* Frameworks */,
-				71CA832924957D86007BBD69 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				71CA832D24957D86007BBD69 /* PBXTargetDependency */,
-			);
-			name = "C10219-SporTrackUITests";
-			productName = "C10219-SporTrackUITests";
-			productReference = 71CA832B24957D86007BBD69 /* C10219-SporTrackUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -197,14 +263,6 @@
 					71CA830924957D84007BBD69 = {
 						CreatedOnToolsVersion = 11.5;
 					};
-					71CA831F24957D86007BBD69 = {
-						CreatedOnToolsVersion = 11.5;
-						TestTargetID = 71CA830924957D84007BBD69;
-					};
-					71CA832A24957D86007BBD69 = {
-						CreatedOnToolsVersion = 11.5;
-						TestTargetID = 71CA830924957D84007BBD69;
-					};
 				};
 			};
 			buildConfigurationList = 71CA830524957D84007BBD69 /* Build configuration list for PBXProject "C10219-SporTrack" */;
@@ -216,13 +274,14 @@
 				Base,
 			);
 			mainGroup = 71CA830124957D84007BBD69;
+			packageReferences = (
+				71FEC72624D218EC00B41FA9 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+			);
 			productRefGroup = 71CA830B24957D84007BBD69 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				71CA830924957D84007BBD69 /* C10219-SporTrack */,
-				71CA831F24957D86007BBD69 /* C10219-SporTrackTests */,
-				71CA832A24957D86007BBD69 /* C10219-SporTrackUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -233,68 +292,93 @@
 			buildActionMask = 2147483647;
 			files = (
 				71CA831A24957D86007BBD69 /* LaunchScreen.storyboard in Resources */,
+				715E33F024C5CDD400C309E0 /* GoogleService-Info.plist in Resources */,
 				71CA831724957D86007BBD69 /* Assets.xcassets in Resources */,
 				71CA831524957D84007BBD69 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		71CA831E24957D86007BBD69 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		71CA832924957D86007BBD69 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		97E13CA3E827E3BEAF823312 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-C10219-SporTrack/Pods-C10219-SporTrack-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-C10219-SporTrack/Pods-C10219-SporTrack-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-C10219-SporTrack/Pods-C10219-SporTrack-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF06C091CE8BA19990B9EA88 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-C10219-SporTrack-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		71CA830624957D84007BBD69 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71CA831224957D84007BBD69 /* ViewController.swift in Sources */,
+				71CA831224957D84007BBD69 /* WelcomeViewController.swift in Sources */,
+				7190A45024CB555600AA1439 /* LogDayViewController.swift in Sources */,
+				71299FB624D32AAC007BA72C /* LocationManager.swift in Sources */,
+				717EA56024D0D37A00496744 /* ExerciseTableViewCell.swift in Sources */,
 				71CA830E24957D84007BBD69 /* AppDelegate.swift in Sources */,
+				715035F024CF8FF5003B1567 /* LogRecordItemTableViewCell.swift in Sources */,
+				715035F224CF9034003B1567 /* Exercise.swift in Sources */,
+				71299FB824D333D1007BA72C /* FormatDisplay.swift in Sources */,
+				7190A44A24CB550700AA1439 /* ExerciseTimerViewController.swift in Sources */,
+				715035E624CF3DDB003B1567 /* InAppViewController.swift in Sources */,
+				718AD6D024C86285009B5977 /* SignUpViewController.swift in Sources */,
+				7190A44C24CB552000AA1439 /* EnduranceViewController.swift in Sources */,
+				71299FB424D32831007BA72C /* Location.swift in Sources */,
+				715035E824CF8E0B003B1567 /* Workout.swift in Sources */,
+				718AD6D224C862A6009B5977 /* SignInViewController.swift in Sources */,
+				7190A44624CB54DD00AA1439 /* ProfileViewController.swift in Sources */,
 				71CA831024957D84007BBD69 /* SceneDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		71CA831C24957D86007BBD69 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				71CA832524957D86007BBD69 /* C10219_SporTrackTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		71CA832724957D86007BBD69 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				71CA833024957D86007BBD69 /* C10219_SporTrackUITests.swift in Sources */,
+				715035EA24CF8E2D003B1567 /* Endurance.swift in Sources */,
+				717EA56224D0D3B200496744 /* WalkRunTableViewCell.swift in Sources */,
+				718AD6DA24C8E894009B5977 /* Constants.swift in Sources */,
+				7190A44E24CB554900AA1439 /* LogMenuViewController.swift in Sources */,
+				71299FBC24D3590A007BA72C /* MulticolorPolyline.swift in Sources */,
+				71299FBA24D33465007BA72C /* UnitConverterPace.swift in Sources */,
+				715035EE24CF8FAA003B1567 /* LogRecordTableViewCell.swift in Sources */,
+				71299FB224D31AC1007BA72C /* LogItem.swift in Sources */,
+				715035EC24CF8F5C003B1567 /* ExerciseCollectionViewCell.swift in Sources */,
+				7190A44824CB54F500AA1439 /* ExerciseMenuViewController.swift in Sources */,
+				71FEC72524D1DBD500B41FA9 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		71CA832224957D86007BBD69 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 71CA830924957D84007BBD69 /* C10219-SporTrack */;
-			targetProxy = 71CA832124957D86007BBD69 /* PBXContainerItemProxy */;
-		};
-		71CA832D24957D86007BBD69 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 71CA830924957D84007BBD69 /* C10219-SporTrack */;
-			targetProxy = 71CA832C24957D86007BBD69 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		71CA831324957D84007BBD69 /* Main.storyboard */ = {
@@ -432,8 +516,10 @@
 		};
 		71CA833524957D86007BBD69 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D900B1BE9A6FB51200A240B1 /* Pods-C10219-SporTrack.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "C10219-SporTrack/C10219-SporTrack.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "C10219-SporTrack/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -449,8 +535,10 @@
 		};
 		71CA833624957D86007BBD69 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03D450B05D55F095C55C4AD3 /* Pods-C10219-SporTrack.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "C10219-SporTrack/C10219-SporTrack.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "C10219-SporTrack/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -461,86 +549,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		71CA833824957D86007BBD69 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "C10219-SporTrackTests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Tomco.iOs.C10219-SporTrackTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/C10219-SporTrack.app/C10219-SporTrack";
-			};
-			name = Debug;
-		};
-		71CA833924957D86007BBD69 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "C10219-SporTrackTests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Tomco.iOs.C10219-SporTrackTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/C10219-SporTrack.app/C10219-SporTrack";
-			};
-			name = Release;
-		};
-		71CA833B24957D86007BBD69 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "C10219-SporTrackUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Tomco.iOs.C10219-SporTrackUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "C10219-SporTrack";
-			};
-			name = Debug;
-		};
-		71CA833C24957D86007BBD69 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "C10219-SporTrackUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Tomco.iOs.C10219-SporTrackUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "C10219-SporTrack";
 			};
 			name = Release;
 		};
@@ -565,25 +573,26 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		71CA833724957D86007BBD69 /* Build configuration list for PBXNativeTarget "C10219-SporTrackTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				71CA833824957D86007BBD69 /* Debug */,
-				71CA833924957D86007BBD69 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		71CA833A24957D86007BBD69 /* Build configuration list for PBXNativeTarget "C10219-SporTrackUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				71CA833B24957D86007BBD69 /* Debug */,
-				71CA833C24957D86007BBD69 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		71FEC72624D218EC00B41FA9 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.5.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		71FEC72724D218EC00B41FA9 /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 71FEC72624D218EC00B41FA9 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 71CA830224957D84007BBD69 /* Project object */;
 }
