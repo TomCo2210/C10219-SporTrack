@@ -14,23 +14,23 @@ Sign Up Screen
 
 Exercise Categories Screen 
 
-![Exercise Categories Screen](https://user-images.githubusercontent.com/17678722/89111990-c2dfa700-d454-11ea-8e0e-b8effd574ad5.png)
+![Exercise Categories Screen](https://user-images.githubusercontent.com/17678722/89111992-c410d400-d454-11ea-8faa-2974fb9ee723.png)
 
 Exercises Screen 
 
-![Exercises Screen](https://user-images.githubusercontent.com/17678722/89111992-c410d400-d454-11ea-8faa-2974fb9ee723.png)
+![Exercises Screen](https://user-images.githubusercontent.com/17678722/89111993-c4a96a80-d454-11ea-87c5-0e49f0d0ec75.png)
 
 Exercise Explanation and Rest Timer 
 
-![Exercise Explanation and Rest Timer](https://user-images.githubusercontent.com/17678722/89111993-c4a96a80-d454-11ea-87c5-0e49f0d0ec75.png)
+![Exercise Explanation and Rest Timer](https://user-images.githubusercontent.com/17678722/89111995-c6732e00-d454-11ea-992c-720b6ba2d04e.png)
 
 Endurance Exercise Screen 
 
-![Endurance Exercise Screen](https://user-images.githubusercontent.com/17678722/89111995-c6732e00-d454-11ea-992c-720b6ba2d04e.png)
+![Endurance Exercise Screen](https://user-images.githubusercontent.com/17678722/89111996-c70bc480-d454-11ea-832c-c200089321af.png)
 
 History Log Main Screen 
 
-![History Log Main Screen](https://user-images.githubusercontent.com/17678722/89111996-c70bc480-d454-11ea-832c-c200089321af.png)
+![History Log Main Screen](https://user-images.githubusercontent.com/17678722/89111997-c7a45b00-d454-11ea-9b86-e5846b6da391.png)
 
 Singular Day Log Screen 
-![Singular Day Log Screen](https://user-images.githubusercontent.com/17678722/89111997-c7a45b00-d454-11ea-9b86-e5846b6da391.png)
+![Singular Day Log Screen](https://user-images.githubusercontent.com/17678722/89111990-c2dfa700-d454-11ea-8e0e-b8effd574ad5.png)
