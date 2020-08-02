@@ -28,6 +28,7 @@ class LogDayViewController: UIViewController {
         FirebaseFunctions.getExercise(day: selectedDate, callBack: { (exercises) in
             for exercise in exercises{
                 self.records.append(exercise)
+                self.records.sort (by: self.sorter)
                 self.day_TV_records.reloadData()
             }
         })
@@ -35,9 +36,30 @@ class LogDayViewController: UIViewController {
         FirebaseFunctions.getEndurance(day: selectedDate, callBack: { (endurances) in
             for endurance in endurances{
                 self.records.append(endurance)
+                self.records.sort (by: self.sorter)
                 self.day_TV_records.reloadData()
             }
         })
+        
+    }
+    func sorter(a:Record, b:Record) -> Bool {
+        if let first = a as? ExerciseToSave, let second = b as? ExerciseToSave
+        {
+            return first.timestamp! < second.timestamp!
+        }
+        if let first = a as? ExerciseToSave, let second = b as? Endurance
+        {
+            return first.timestamp! < second.timestamp!
+        }
+        if let first = a as? Endurance, let second = b as? ExerciseToSave
+        {
+            return first.timestamp! < second.timestamp!
+        }
+        if let first = a as? Endurance, let second = b as? Endurance
+        {
+            return first.timestamp! < second.timestamp!
+        }
+        return false
     }
 }
 //MARK: - TableView Protocols

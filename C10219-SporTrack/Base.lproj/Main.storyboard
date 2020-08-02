@@ -232,14 +232,15 @@
                                 <rect key="frame" x="10" y="486" width="394" height="80"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Birth Date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f4G-Sx-FD1">
-                                        <rect key="frame" x="0.0" y="0.0" width="69.333333333333329" height="80"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="94" height="80"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                         <color key="textColor" systemColor="systemGray4Color" red="0.81960784310000001" green="0.81960784310000001" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" translatesAutoresizingMaskIntoConstraints="NO" id="7iS-aL-mRu">
-                                        <rect key="frame" x="69.333333333333343" y="0.0" width="324.66666666666663" height="80"/>
+                                        <rect key="frame" x="94" y="0.0" width="300" height="80"/>
                                         <constraints>
+                                            <constraint firstAttribute="width" relation="lessThanOrEqual" constant="300" id="ii5-oO-ytd"/>
                                             <constraint firstAttribute="height" constant="80" id="qoD-X3-CxF"/>
                                         </constraints>
                                     </datePicker>
@@ -250,6 +251,7 @@
                                     <constraint firstAttribute="bottom" secondItem="7iS-aL-mRu" secondAttribute="bottom" id="Lhf-ND-gGX"/>
                                     <constraint firstItem="f4G-Sx-FD1" firstAttribute="top" secondItem="ZV9-3j-ias" secondAttribute="top" id="Nbt-dW-FoK"/>
                                     <constraint firstAttribute="trailing" secondItem="7iS-aL-mRu" secondAttribute="trailing" id="Yn8-t0-uE2"/>
+                                    <constraint firstItem="7iS-aL-mRu" firstAttribute="leading" secondItem="f4G-Sx-FD1" secondAttribute="trailing" id="Zzs-kp-5jR"/>
                                     <constraint firstItem="7iS-aL-mRu" firstAttribute="top" secondItem="ZV9-3j-ias" secondAttribute="top" id="oAL-uk-68P"/>
                                 </constraints>
                             </stackView>
@@ -494,14 +496,14 @@
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="DayEntryTableViewCell" id="WA6-8j-XGz" customClass="DayEntryTableViewCell" customModule="C10219_SporTrack" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="404" height="63.666667938232422"/>
+                                        <rect key="frame" x="0.0" y="28" width="404" height="62.666667938232422"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="WA6-8j-XGz" id="5hD-PD-frI">
-                                            <rect key="frame" x="0.0" y="0.0" width="404" height="63.666667938232422"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="404" height="62.666667938232422"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Friday, July 31, 2020" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hNP-RZ-hBb">
-                                                    <rect key="frame" x="30" y="21" width="344" height="21.666666666666671"/>
+                                                    <rect key="frame" x="30" y="21" width="344" height="20.666666666666671"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -1140,7 +1142,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="hrn-CS-mrr"/>
+        <segue reference="BcJ-Ve-Mpl"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Close-Grip Pull-Down" width="700" height="394"/>
