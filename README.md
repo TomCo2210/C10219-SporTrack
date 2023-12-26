@@ -15,8 +15,10 @@ SporTrack is a sports exercise tracking application built using Swift 5, designe
 -  **Sign-Up/Login:** Users can create an account or log in to track their progress over time.
 
 <div class="row">
+  <div class="column">
 <img src="https://user-images.githubusercontent.com/17678722/89111988-c07d4d00-d454-11ea-8985-df5ec8175e6b.png" alt="Log In Screen" style="height:700px;"/>
-<img src="https://user-images.githubusercontent.com/17678722/89111989-c1ae7a00-d454-11ea-84ab-0ac1dfa2d906.png" alt="Sign Up Screen" style="height:700px;"/>
+  </div><div class="column">
+<img src="https://user-images.githubusercontent.com/17678722/89111989-c1ae7a00-d454-11ea-84ab-0ac1dfa2d906.png" alt="Sign Up Screen" style="height:700px;"/></div>
 </div>
 
 ### 2. Tracking Workouts
