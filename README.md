@@ -6,7 +6,7 @@ Final Course Project for iOS Application Development course, in Afeka - the acad
 # Overview
 SporTrack is a sports exercise tracking application built using Swift 5, designed for iOS devices. It's your go-to app for monitoring and improving your sports training sessions.
 
-![Main Welcome Screen](https://user-images.githubusercontent.com/17678722/89111986-bf4c2000-d454-11ea-981c-97cda98880ca.png | height=700)
+![Main Welcome Screen](https://user-images.githubusercontent.com/17678722/89111986-bf4c2000-d454-11ea-981c-97cda98880ca.png|height=700)
 
 ## Application Flow
 
