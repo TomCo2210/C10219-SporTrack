@@ -30,6 +30,7 @@ SporTrack is a sports exercise tracking application built using Swift 5, designe
 <img src="https://user-images.githubusercontent.com/17678722/89111995-c6732e00-d454-11ea-992c-720b6ba2d04e.png" alt="Exercise Explanation and Rest Time" style="height:700px;"/>
 <img src="https://user-images.githubusercontent.com/17678722/89111996-c70bc480-d454-11ea-832c-c200089321af.png" alt="Endurance Exercise Screen" style="height:700px;"/>
 </div>
+
 ### 3. Analyzing Performance
 
 -  **Statistics:** Post-workout, users can view detailed stats to analyze their performance.
